@@ -1,9 +1,0 @@
-replicaCount: 1
-
-image:
-  repository: techacademyti/go-service-reviews
-  pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
-
-fullnameOverride: "go-service-reviews-2"

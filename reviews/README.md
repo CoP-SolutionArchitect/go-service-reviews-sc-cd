@@ -1,1 +1,0 @@
-# go-service-reviews-sc-cd
