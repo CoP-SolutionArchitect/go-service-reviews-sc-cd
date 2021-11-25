@@ -5,7 +5,7 @@ go-service:
     repository: techacademyti/go-service-reviews
     pullPolicy: Always
     # Overrides the image tag whose default is the chart appVersion.
-    tag: "2"
+    tag: "3"
 
   fullnameOverride: "go-service-reviews-2"
 
