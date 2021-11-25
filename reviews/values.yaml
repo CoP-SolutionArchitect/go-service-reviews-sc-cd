@@ -15,6 +15,6 @@ go-service:
         }
   ingress:
     enabled: true
-    host: argo.143-244-202-126.nip.io
+    host: reviews.143-244-202-126.nip.io
     path: /
   
