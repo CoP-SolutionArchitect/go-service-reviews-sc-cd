@@ -1,5 +1,5 @@
 go-service:
-  replicaCount: 3
+  replicaCount: 1
 
   image:
     repository: techacademyti/go-service-reviews
@@ -8,3 +8,8 @@ go-service:
     tag: "latest"
 
   fullnameOverride: "go-service-reviews-2"
+
+  podAnnotations: {
+        "dapr.io/enabled": "true",
+        "dapr.io/app-id": "reviews"
+        }
