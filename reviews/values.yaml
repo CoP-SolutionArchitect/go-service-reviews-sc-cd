@@ -1,5 +1,5 @@
 go-service:
-  replicaCount: 3
+  replicaCount: 1
 
   image:
     repository: techacademyti/go-service-reviews
