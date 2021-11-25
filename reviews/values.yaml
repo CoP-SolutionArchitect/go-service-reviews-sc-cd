@@ -5,7 +5,7 @@ go-service:
     repository: techacademyti/go-service-reviews
     pullPolicy: Always
     # Overrides the image tag whose default is the chart appVersion.
-    tag: "latest"
+    tag: "2"
 
   fullnameOverride: "go-service-reviews-2"
 
@@ -17,3 +17,4 @@ go-service:
     enabled: true
     host: reviews.143-244-213-51.nip.io
     path: /
+  
