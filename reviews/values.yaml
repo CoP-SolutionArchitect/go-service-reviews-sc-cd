@@ -15,10 +15,5 @@ go-service:
         }
   ingress:
     enabled: true
-    annotations: 
-      kubernetes.io/ingress.class: nginx 
-    hosts:
-      - host: reviews.143-244-213-51.nip.io
-        paths:
-          - path: /
-            pathType: Prefix
+    host: reviews.143-244-213-51.nip.io
+    path: /
