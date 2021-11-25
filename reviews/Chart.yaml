@@ -5,5 +5,5 @@ version: 1.0.0
 appVersion: "1.0.0"
 dependencies:
 - name: go-service
-  version: 0.1.3
+  version: 0.1.4
   repository: https://raw.githubusercontent.com/CoP-SolutionArchitect/helm/main
