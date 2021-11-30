@@ -14,7 +14,7 @@ go-service:
         "dapr.io/app-id": "reviews"
         }
   ingress:
-    enabled: true
+    enabled: false
     host: reviews.143-244-202-126.nip.io
     path: /
   
